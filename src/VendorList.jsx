@@ -31,7 +31,7 @@ const VendorList = () => {
     <div>
       <header>
         <div className="logo">
-          <img src="logo.png" alt="Logo" />
+          <img src="/public/logo.png" alt="Logo" />
         </div>
         <div className="title">
           <h4 style={{ fontFamily: "'Playwrite CU', cursive" }}>

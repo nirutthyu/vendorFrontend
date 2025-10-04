@@ -43,7 +43,7 @@ const Home = () => {
       {/* Header */}
       <header>
         <div className="logo">
-          <img src="logo.png" alt="Logo" />
+          <img src="/public/logo.png" alt="Logo" />
         </div>
         <div className="title">
           <h4 style={{ fontFamily: "'Playwrite CU', cursive" }}>
@@ -136,7 +136,7 @@ const Home = () => {
         <section id="about" ref={aboutRef} className={`about ${aboutActive ? "active" : ""}`}>
           <h2>About Us</h2>
           <div className="content">
-            <img src="logo.png" alt="About Us" className="about-image" />
+            <img src="/public/logo.png" alt="About Us" className="about-image" />
             <div className="about-text">
               <p>
                 Find Your Vendor is dedicated to bringing you the freshest produce
